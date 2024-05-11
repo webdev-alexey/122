@@ -16,8 +16,8 @@ $second-family: "Playfair Display", sans-serif;
     calc(
       #{$min-size}px +
         (
-          #{$max-size - $min-size}px *
-            ((100vw - #{$min-screen}px) / ($max-screen - $min-screen))
+          #{$max-size - $min-size} * ((100vw - #{$min-screen}px) /
+                ($max-screen - $min-screen))
         )
     ),
     #{$max-size}px
